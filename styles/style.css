@@ -24,7 +24,7 @@
     padding: 5px 8px;
     border-radius: 20px;
     /* border: 1px solid var(--white); */
-    /* color: var(--white); */
+    color: var(--white);
 }
 #home {
     margin-top: 1px;
