@@ -1,0 +1,39 @@
+#navbar {
+    margin: 8px 104px;
+}
+#text-nav {
+    font-size: 1.6rem;
+    /* margin-right: 20px;
+    margin-bottom: 20px; */
+}
+.btn-franchise {
+    border-radius: 30px;
+    background-color: transparent;
+    color: var(--white);
+    padding: 13px 20px;
+
+}
+.order-online {
+    border-radius: 35px;
+    background-color: var(--red);
+    padding: 15px 12px;
+    color: var(--white);
+    border: 1px solid var(--red);
+}
+#order-span{
+    padding: 5px 8px;
+    border-radius: 20px;
+    /* border: 1px solid var(--white); */
+    /* color: var(--white); */
+}
+#home {
+    margin-top: 1px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+#order {
+    margin-right: 5px;
+}
+/* #Franchise {
+     margin-top: 10px;
+}  */
