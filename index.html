@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,99 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/utility.css">
 </head>
+
 <body class="bg-black text-white">
-    <header class="d-flex justify-between align-center gap-4 flex-wrap" id="navbar" >
+    <header class="d-flex justify-between align-center gap-4 flex-wrap" id="navbar">
         <div>
-            <img src="./assets/logo.webp" width="165" alt="logo"></div>
-            <nav class="d-flex align-end gap-5 flex-wrap" id="text-nav">
-                <a href="#" class="text-none text-white" id="home">Home</a>
-                <a href="#" class="text-none text-white" id="home">About Us</a>
-                <a href="#" class="text-none  text-white" id="home">Publications</a>
-                <button class="btn-franchise border" id="Franchise">Get a Franchise</button>
-                <button class="order-online" id="order">Order Online <span id="order-span"><i
-                    class="fa-solid fa-arrow-right text-white"></i></span></button>
-            </nav>
+            <img src="./assets/logo.webp" width="165" alt="logo">
+        </div>
+        <nav class="d-flex align-end gap-5 flex-wrap" id="text-nav">
+            <a href="#" class="text-none text-white" id="home">Home</a>
+            <a href="./about-us.html" class="text-none text-white" id="home">About Us</a>
+            <a href="#" class="text-none  text-white" id="home">Publications</a>
+            <button class="btn-franchise border" id="Franchise">Get a Franchise</button>
+            <button class="order-online" id="order">Order Online <span id="order-span"><i
+                        class="fa-solid fa-arrow-right text-red"></i></span></button>
+        </nav>
     </header>
     <main>
         <img src="./assets/carousel.webp" width="1349" height="548" alt="picture">
+        <div class="para-1 text-center text-white">Welcome to <span id="Salt">Salt'n Pepper</span>
+            <br />
+            Restaurants! Our Brands
+            <p class="text-color-grey">Please click our brands below for further information, reservations or to order
+                online!
+
+            </p>
+        </div>
+        <div class="para-2 d-flex gap-5 flex-wrap">
+            <img id="img" src="./assets/restaurant.webp" alt="logo">
+            <img id="img" src="./assets/express.webp" alt="logo">
+            <img id="img" src="./assets/village.webp" alt="logo">
+        </div>
+        <div class="d-flex order gap-5 justify-around flex-wrap">
+            <button id="btn-order" class="text-none text-white order-btn-1">Order now</button>
+            <button id="btn-order" class="text-none text-white order-btn-2">Order now</button>
+            <button id="btn-order" class="text-none text-white reserve-btn">Reserve a table</button>
+        </div>
+        <div id="div" class="bg-grey">
+            <div class="bg-img d-flex row-reverse flex-wrap">
+                <img id="S" src="./assets/bg-image.webp" height="465" width="325" alt="bg-logo">
+
+                <h1 id="salt-pepper" class="font-futurak text-center">Salt'n Pepper
+                    <br />
+                    <span class="font-butler text-center">Restaurant Franchises</span>
+                    <p class="text-color-grey text-center" id="para-3">Each of our franchises are individually managed.
+                        For
+                        further details, kindly contact them directly.
+
+                    </p>
+                </h1>
+                <div id="address" class="d-flex flex-wrap gap-4">
+                    <address id="islamabad" class="text-red">I S L A M A B A D
+                        <h1 class="font-futurak text-white" id="salt-pepper-2">Salt'n Pepper <span>Restaurant</span>
+                            <br />
+                            <span class="text-color-grey" id="add"> <i class="fa-solid fa-location-dot"></i> Plot# 55,
+                                Shabbir Plaza, Blue Area, F-6, Islamabad
+                                <br />
+                                <a class="text-none text-color-grey" href="tel:051-2604904-6"><i
+                                        class="fa-solid fa-phone"></i> Ph: 051-2604904-6</a>
+                                <br />
+
+                                <button id="btn-direction" class="text-white border-rounded">Get Directions
+
+                                </button>
+                            </span>
+                        </h1>
+                    </address>
+
+                    <img src="./assets/ISLAMABAD.webp" alt="Location">
+
+                    
+                    
+                    <img src="./assets/faisalabad.webp" alt="Location">
+                    <address id="faisalabad" class="text-red">F A I S A L A B A D 
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <!-- 
+                <div class="adresses">
+                    <h2 </h2>
+                </div> 
+                
+                -->
+
+
     </main>
 
     <script src="https://kit.fontawesome.com/9aded8b196.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
