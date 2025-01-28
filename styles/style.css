@@ -100,19 +100,28 @@
 #div {
     /* height: 100vh;  */
     padding: 5px 50px;
+    padding-bottom: 80px;
 }
-.bg-img {
+#salt-pepper-4 {
+    font-size: 5.2rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#express {
+    font-size: 4rem;
+}
+/* .bg-img { */
     /* background-image: url(../assets/bg-image.webp);
     background-repeat: no-repeat; */
-    text-align: end !important;
+    /* text-align: end !important; */
     /* width: 100vw;*/
     
-}
-#S {
+/* } */
+/* #S {
     margin-top: 30px !important; 
     margin-right: 30px !important; 
 
-}
+} */
 @font-face {
     font-family: butler;
     src: url(../fonts/Butler/Butler_Regular.otf);
@@ -120,8 +129,8 @@
 #salt-pepper {
     font-size: 5rem;
     margin-bottom: 50px;
-    margin-right: -65px;
-    margin-top: 70px; 
+    /* margin-right: -65px;*/
+    margin-top: 70px;  
 }  
  
 .font-butler {
@@ -151,8 +160,16 @@
     margin-top: 5px;
 }
 #address {
-    padding: 0px 30px;
+    padding: 0px 0px;
+
     
+}
+.padd {
+    margin-top: 10px;
+}
+.salt-pepper-3 {
+    margin-right: 180px;
+    margin-top: 10px;
 }
 /* #address {
      margin-top: 100px; 
@@ -173,10 +190,29 @@
     background-color: var(--white);
 }
 #faisalabad {
+ 
     font-size: 1.6rem;
     text-align: start;
     margin-bottom: 200px;
     font-weight: 80;
+}
+.sar {
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+.padding {
+    padding: 5px 5px;
+}
+.express-franchise {
+    padding: 0px 80px;
+}
+#font-24 {
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+#font-14 {
+    font-size: 1.4rem;
 }
 /* #isl {
     margin-right: 70px;
@@ -194,4 +230,11 @@
 .row {
     font-size: 1.6rem;
     
+}
+@font-face {
+    font-family: apercu;
+    src: url(../fonts/Apercu\ Font\ Family/ApercuRegular);
+}
+.font-apercu {
+    font-family: apercu;
 }
