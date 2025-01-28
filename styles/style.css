@@ -164,6 +164,9 @@
 
     
 }
+#salt-pepper-4 {
+    margin-top: 10px;
+}
 .padd {
     margin-top: 10px;
 }
@@ -184,6 +187,7 @@
     border: 1px solid whitesmoke;
     margin-top: 20px;
     padding: 15px 16px;
+    margin-bottom: 20px;
 }
 #btn-span {
     color: var(--red);
@@ -206,6 +210,28 @@
 }
 .express-franchise {
     padding: 0px 80px;
+    margin-bottom: 40px;
+}
+#salt-pepper-5 {
+    font-size: 4.8rem;
+}
+#village-franchise {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.font-16 {
+    font-size: 1.6rem;
+}
+#gujranwala {
+    font-size: 1.6rem;
+}
+#salt-pepper-6 {
+    font-size: 3.2rem;
+    font-weight: 300;
+}
+#span {
+    font-size: 5.2rem;
+    font-weight: 300;
 }
 #font-24 {
     font-size: 2.4rem;
@@ -213,6 +239,103 @@
 }
 #font-14 {
     font-size: 1.4rem;
+}
+#village-div {
+    padding-bottom: 40px;
+}
+.gap {
+    column-gap: 5px;
+    row-gap: 50px;
+}
+#opening-soon {
+    padding: 0px 110px;
+    margin-bottom: 70px;
+}
+#foods {
+    margin-bottom: 60px;
+}
+#footer {
+    padding: 70px 50px 70px 10px;
+}
+.cursor {
+    cursor: pointer;
+}
+.snp {
+    font-weight: 600;
+    font-style: bold;
+    margin: 20px 90px;
+}
+
+#insta {
+    font-size: 40px;
+    color: red;
+    border-radius: 100px;
+    background-color: white;
+}
+#x {
+    font-size: 40px;
+    color: red;
+    margin: 0px 5px;
+    /* background-color: white; */
+}
+
+#logo {
+    font-size:40px;
+    background-color: white;
+    border-radius: 20px;
+    color: red;
+    margin: 0px 5px;
+}
+#head {
+    font-weight: 500;
+    font-style: bold;
+}
+.footer-left {
+    margin-top: 50px;
+    
+}
+#social {
+    margin-bottom: 35px;
+    color: #212529;
+}
+#font-24 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    font-style: bold;
+}
+.border-round {
+    border-radius: 5px;
+}
+#burewala {
+    font-family: 'Times New Roman', Times, serif;
+}
+/* .salt {
+    font-weight: 600;
+    font-style: bold;
+} */
+/* #location-div {
+    padding-bottom: 100px;
+} */
+ .loc-img {
+    background-color: #fff;
+    color: #000;
+    width: 350px;
+    height: 200px;
+ }
+#salt-pepper-7 {
+    margin-top: 30px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+#btn-village {
+    padding: 15px 16px;
+     background-color: #28a745;
+     border: 1px solid #28a745;
+     
+}
+#btn-village:hover {
+    background-color: transparent;
+    border: 1px solid #28a745;
 }
 /* #isl {
     margin-right: 70px;

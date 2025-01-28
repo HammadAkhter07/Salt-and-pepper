@@ -53,10 +53,43 @@ html {
 .text-center {
     text-align: center;
 }
+.text-start {
+    text-align: start;
+}
+.list-style-none {
+    list-style: none;
+}
+.font-size-52 {
+    font-size: 5.2rem;
+}
+.font-size-48 {
+    font-size: 4.8rem;
+}
+.font-size-26 {
+    font-size: 2.6rem;
+}
+.font-24 {
+    font-size: 1.4rem;
+}
+.font-21 {
+    font-size: 2.1rem;
+}
+.font-15 {
+    font-size: 1.5rem;
+}
+.font-10 {
+    font-size: 1rem;
+}
+.font-32 {
+    font-size: 3.2rem;
+}
 .text-none {
     text-decoration: none;
 }
 /* display startwed */
+.d-inline {
+    display: inline;
+}
 .d-flex {
     display: flex;
 }
