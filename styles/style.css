@@ -44,6 +44,7 @@
     margin-top: 50px;
     margin-bottom: 14px;
 }
+
 @font-face {
     font-family: futurak;
     src: url(../fonts/futurablack-bt.ttf);
@@ -96,8 +97,9 @@
     margin-right: 70px;
 }
 /* FRANCHISE SECTION STARTED */
-.div {
-    height: 100vh; 
+#div {
+    /* height: 100vh;  */
+    padding: 5px 50px;
 }
 .bg-img {
     /* background-image: url(../assets/bg-image.webp);
@@ -117,7 +119,7 @@
 }
 #salt-pepper {
     font-size: 5rem;
-    
+    margin-bottom: 50px;
     margin-right: -65px;
     margin-top: 70px; 
 }  
@@ -149,7 +151,7 @@
     margin-top: 5px;
 }
 #address {
-    position: relative;
+    padding: 0px 30px;
     
 }
 /* #address {
@@ -176,6 +178,9 @@
     margin-bottom: 200px;
     font-weight: 80;
 }
+/* #isl {
+    margin-right: 70px;
+} */
 /* about us started */
 #introduction {
     font-size: 4rem;
