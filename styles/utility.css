@@ -68,6 +68,12 @@ html {
 .font-size-26 {
     font-size: 2.6rem;
 }
+.font-14 {
+    font-size: 1.4rem;
+}
+.font-16 {
+    font-size: 1.6rem;
+}
 .font-24 {
     font-size: 1.4rem;
 }
@@ -82,6 +88,9 @@ html {
 }
 .font-32 {
     font-size: 3.2rem;
+}
+.font-12 {
+    font-size: 1.2rem;
 }
 .text-none {
     text-decoration: none;
@@ -148,6 +157,9 @@ html {
 .gap-5{
     gap: 25px;
 }
+.gap-6 {
+    gap: 48px;
+}
 .m-1 {
     margin: 5px;
 }
@@ -190,4 +202,11 @@ html {
 .border-rounded {
     border-radius: 30px;
     
+}
+.img-rounded {
+    border-radius: 10px;
+}
+
+.weight-5 {
+    font-weight: 500;
 }

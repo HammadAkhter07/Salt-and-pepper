@@ -1,11 +1,14 @@
-#navbar {
-    margin: 8px 104px;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+ #navbar {
+    /* margin: 8px 104px; */
+    padding: 8px 104px;
 }
 #text-nav {
     font-size: 1.6rem;
-    /* margin-right: 20px;
-    margin-bottom: 20px; */
-}
+     /* margin-right: 20px;
+    margin-bottom: 20px;  */
+} 
 .btn-franchise {
     border-radius: 30px;
     background-color: transparent;
@@ -13,6 +16,7 @@
     padding: 13px 20px;
 
 }
+
 .order-online {
     border-radius: 35px;
     background-color: var(--red);
@@ -23,26 +27,30 @@
 #order-span{
     padding: 5px 8px;
     border-radius: 20px;
-    /* border: 1px solid var(--white); */
+     border: 1px solid var(--white); 
     color: var(--red);
     background-color: var(--white);
 }
-#home {
+/* #home {
     margin-top: 1px;
     margin-right: 10px;
     margin-bottom: 7px;
 }
 #order {
     margin-right: 5px;
-}
-/* #Franchise {
+} 
+#Franchise {
      margin-top: 10px;
-}  */
+} 
+  */
+  /* .containar {
+    padding: 9px 50px 9px 50px;
+  } */
 .para-1 {
     font-size: 4rem;
     font-weight: 300;
     margin-top: 50px;
-    margin-bottom: 14px;
+    
 }
 
 @font-face {
@@ -61,24 +69,34 @@
 }
 #img {
     background-color: white;
+    margin-bottom: 20px;
+    border: 1px solid var(--white);
+    background-color: var(--white);
+    padding: 30px 20px;
+    width: 250px;
+    border-radius: 5px;
+
+}
+.para-2 {
+    padding: 35px 250px;
 }
 /* .para-2 {
     padding-left: 20px;
     padding-right: 20px;
 } */
-.para-2 {
-    /* margin-right: 80px; */
+/* .para-2 {
+    margin-right: 80px;
     margin-left: 250px;
     margin-top: 50px;
     margin-bottom: 25px;
-}
-.order {
+} */
+/* .order {
    
     margin-left: 230px;
     
     margin-right: 200px;
     margin-bottom: 130px;
-}
+} */
 #btn-order {
     background-color: transparent;
     border-radius: 30px;
@@ -87,15 +105,15 @@
     border: 1px solid var(--white);
     font-size: 1.6rem;
 }
-.order-btn-1 {
+/* .order-btn-1 {
     margin-left: 30px;
-}
-.order-btn-2 {
+} */
+/* .order-btn-2 {
     margin-left: 30px;
-}
-.reserve-btn {
+} */
+/* .reserve-btn {
     margin-right: 70px;
-}
+} */
 /* FRANCHISE SECTION STARTED */
 #div {
     /* height: 100vh;  */
@@ -360,4 +378,85 @@
 }
 .font-apercu {
     font-family: apercu;
+}
+.font-inter {
+    font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.rest {
+    font-size: 3.2rem;
+    padding-top: 40px;
+    margin-bottom: 25px;
+}
+.about-sec {
+    margin-bottom: 50px;
+}
+.ms {
+    font-size: 1.6rem;
+}
+#restaurant {
+    padding: 20px 50px;
+}
+#restaurant1 {
+    margin-top: 30px;
+    padding: 0px 70px;
+    margin-bottom: 50px;
+}
+#started {
+    margin-bottom: 60px;
+}
+#restaurant2 {
+    margin-top: 30px;
+    padding: 0px 70px;
+    margin-bottom: 60px;
+}
+#restaurant3 {
+    margin-top: 40px;
+    padding: 0px 70px;
+    margin-bottom: 70px;
+}
+#restaurant4 {
+    margin-bottom: 40px;
+}
+.restaurant-div {
+    margin-bottom: 60px;
+}
+#restaurant5 {
+    margin-top: 50px;
+    padding: 0px 70px;
+    margin-bottom: 70px;
+}
+.exp-frn {
+    margin-bottom: 40px;
+}
+.mangan-con {
+    padding-top: 30px;
+    height: 430px;
+    width: 350px;
+    background: var(--grey);
+    text-align: center;
+    border-radius: 20px;
+}
+.mangan-pro {
+    padding: 0px 100px;
+}
+.mangan-pro-2 {
+    padding: 0px 110px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+#village-frn {
+    padding-bottom: 40px;
+}
+.guj {
+    color: #212529;
+}
+#guj-head {
+    padding: 0px 20px 90px 20px;
+    /* margin-bottom: 50px; */
+}
+#restaurant7 {
+    margin-bottom: 20px;
 }
