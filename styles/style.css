@@ -3,6 +3,7 @@
  #navbar {
     /* margin: 8px 104px; */
     padding: 8px 104px;
+    border-bottom: 1px solid var(--grey);
 }
 #text-nav {
     font-size: 1.6rem;
@@ -459,4 +460,60 @@
 }
 #restaurant7 {
     margin-bottom: 20px;
+}
+/* publications started */
+.nav-mar {
+    margin-bottom: 60px;
+}
+.books { 
+    margin-bottom: 60px;
+}
+.left {
+    border: 1px solid grey;
+    height: 570px;
+    width: 550px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.branch {
+    margin-bottom: 60px;
+}
+.Get {
+    margin-bottom: 20px;
+}
+/* label {
+    margin-bottom: 20px;
+} */
+input {
+    border-radius: 5px;
+    padding: 8px 180px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.form {
+    padding: 0px 125px;
+}
+select {
+    border-radius: 5px;
+    padding: 8px 140px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: start;
+    color: var(--grey);
+
+}
+.Submit {
+    padding: 12px 55px;
+    text-align: start;
+    border-radius: 30px;
+    background-color: orange;
+    color: white;
+    font-size: 1.6rem;
+}
+.sub {
+    padding-left: 135px;
+}
+form {
+    margin-bottom: 60px;
 }

@@ -23,61 +23,70 @@
         </nav>
     </header>
     <main>
-    <div class="d-flex justify-center gap-5 books">
-        <div class="left">
-            <img src="./assets/book-1.webp" width="550" alt="book-1">
+        <div>
+            <h2 class="font-butler font-40 text-center Get">
+                Get a Franchise
+            </h2>
         </div>
-        <div class="left">
-            <img src="./assets/book-2.webp" width="550" alt="book-2">
+        <form>
+            <div class="d-flex justify-around gap-1 flex-wrap form">
+            <div>
+            <label id="label" class="font-16 font-inter text-color-grey" for="name">Name</label>
+            <br>
+            <input type="text" required  name="name" id="name">
+            <br /> 
+            <label id="label" class="font-16 font-inter text-color-grey" for="number">Phone Number</label>
+            <br>
+            <input type="number" required name="number" id="number">
+            <br />
+            <label id="label" class="font-16 font-inter text-color-grey" for="City">City</label>
+            <br>
+            <input type="text" required  name="City" id="City">
+            <br />
+            <label id="label" class="font-16 font-inter text-color-grey" for="Country">Country</label>
+            <br>
+            <input type="text" name="Country" required id="Country">
+            <br />
+           
+           
         </div>
-
-    </div>
-    <div class="text-center branch">
-        <h2 class="font-butler font-32">Available at following branches</h2>
-        <br />
-        <br />
-        <p class="font-inter font-16">Salt’n Pepper Restaurant – Mall Road</p>
-        <br />
-        <p class="font-14 font-inter text-color-grey">26, Mall Road, Lahore, Pakistan</p>
-        <br />
-        <a class="font-14 font-inter text-color-grey text-none" href="tell:04237244009">04237244009</a>
-        <br />
-        <br />
-        <p class="font-inter font-16">Salt’n Pepper Restaurant – Liberty Market</p>
-        <br />
-        <p class="font-14 font-inter text-color-grey">48 – Commercial Zone, Liberty Market, Lahore, Pakistan
-
-            </p>
-        <br />
-        <a class="font-14 font-inter text-color-grey text-none" href="tell:04235752893">04235752893</a>
-        <br />
-        <br />
-        <p class="font-inter font-16">Salt’n Pepper Restaurant – Lahore</p>
-        <br />
-        <p class="font-14 font-inter text-color-grey">103-B II, MM Alam Road, Lahore, Pakistan
-
-            </p>
-        <br />
-        <a class="font-14 font-inter text-color-grey text-none" href="tell:04235750735">04235750735</a>
-        <br />
-        <br />
-        <p class="font-inter font-16">Salt’n Pepper Restaurant – Islamabad
-            </p>
-        <br />
-        <p class="font-14 font-inter text-color-grey"> Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
-        <br />
-        <a class="font-14 font-inter text-color-grey text-none" href="tell:0512604904-6">0512604904-6</a>
-        <br />
-        <br />
-        <p class="font-inter font-16">Salt’n Pepper Restaurant – Faisalabad
-            
-        </p>
-    <br />
-    <p class="font-14 font-inter text-color-grey"> 14-Kohinoor City, Faisalabad</p>
-    <br />
-    <a class="font-14 font-inter text-color-grey text-none" href="tell:0418711404">0418711404</a>
-    
-    </div>
+        <div> 
+            <label id="label" class="font-16 font-inter text-color-grey" for="email">Email</label>
+            <br>
+            <input type="email" required  name="email" id="email">
+            <br />
+            <label id="label" class="font-16 font-inter text-color-grey" for="number">Mobile Number</label>
+            <br>
+            <input type="number" required  name="number" id="number">
+            <br />
+            <label id="label" class="font-16 font-inter text-color-grey" for="name">Province</label>
+            <br>
+            <input type="text" required  name="name" id="name">
+            <br />
+            <label id="label" class="font-16 font-inter text-color-grey" for="brands">Brands</label>
+            <br>
+            <select name="brands" id="brands">
+                <option selected value="Which brand are you interested in">Which brand are you interested in</option>
+                <option value="
+                Salt'n Pepper Restaurant
+                ">
+                Salt'n Pepper Restaurant
+                </option>
+                <option value="Salt'n Pepper Village">Salt'n Pepper Village</option>
+                <option value="
+                Salt'n Pepper Express
+                ">
+                Salt'n Pepper Express
+                </option>
+            </select>
+            <!-- <input type="text" class="text-white font-16" placeholder="" required  name="" id="brands"> -->
+        </div>
+        
+            </div>
+            <div class="sub">
+            <button class="Submit">Submit</button>
+</div>
+        </form>
     </main>
     <footer>
         <div id="footer" class="bg-grey d-flex flex-wrap justify-evenly">
@@ -167,7 +176,6 @@
             <p class="font-24 snp">Created by Hammad Akhter .com</p>
         </div>
     </footer>
-
-    <script src="https://kit.fontawesome.com/9aded8b196.js" crossorigin="anonymous"></script>
+    
 </body>
 </html>
